@@ -30,7 +30,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 1. Włącz Docker Desktop na komputerze 
 1. Stwórz nowy Klaster 
     ```bash
-    minikube start -p <nazwa_klastra> --cni=flannel
+    minikube start -p flannelEx --cni=flannel
     ```
 1. sprawdz jakiego klastra aktualnie używasz
 
@@ -41,7 +41,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
     w przypadku gdy używasz innego klastra niż ten który przed chwila stworzyłes użyj komendy do zmiany klastra
 
     ```bash
-    minikube profile <nazwa_klastra>
+    minikube profile flannelEx
     ```
 1. stwórz środowisko testowe - namespace 
     ```bash
@@ -105,7 +105,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 ### Użyj Calico CNI do komunikacji między podami 
 1. Stwórz nowy Klaster 
     ```bash
-    minikube start -p <nazwa_klastra> --cni=calico
+    minikube start -p calicoEx --cni=calico
     ```
 1. sprawdz jakiego klastra aktualnie używasz
 
@@ -116,7 +116,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
     w przypadku gdy używasz innego klastra niż ten który przed chwila stworzyłes użyj komendy do zmiany klastra
 
     ```bash
-    minikube profile <nazwa_klastra>
+    minikube profile flannelEx
     ```
 1. stwórz środowisko testowe - namespace 
     ```bash
