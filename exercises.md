@@ -116,7 +116,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
     w przypadku gdy używasz innego klastra niż ten który przed chwila stworzyłes użyj komendy do zmiany klastra
 
     ```bash
-    minikube profile flannelEx
+    minikube profile calicoEx
     ```
 1. stwórz środowisko testowe - namespace 
     ```bash
